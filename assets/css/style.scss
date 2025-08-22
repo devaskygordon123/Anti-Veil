@@ -1,0 +1,23 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+:root {
+  --color-primary: #4A4A4A;   /* concrete grey */
+  --color-accent: #8B0000;    /* blood red */
+  --color-bg: #1E1E2E;        /* steel blue-black */
+  --font-headline: 'IBM Plex Mono', monospace;
+  --font-body: 'Work Sans', sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg);
+  color: var(--color-primary);
+}
+
+h1, h2, h3 {
+  font-family: var(--font-headline);
+  color: var(--color-accent);
+}
