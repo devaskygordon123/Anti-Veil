@@ -1,8 +1,7 @@
-title: Anti-Veil                # replace with your brand name
-description: Disillusion  # replace with your tagline
-url: "https://yourusername.github.io"
+title: Anti-Veil
+description: Disillusion
+url: "https://devaskygordon123.github.io"
 baseurl: ""
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
-  
