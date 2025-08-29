@@ -1,0 +1,30 @@
+:root {
+  --bg: #1E1E2E;
+  --text: #4A4A4A;
+  --accent: #8B0000;
+  --font: 'IBM Plex Mono', 'Courier New', monospace;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.4;
+}
+
+h1 {
+  color: var(--accent);
+  font-size: 3rem;
+  margin: 0 0 .5rem;
+}
+
+p {
+  font-size: 1.25rem;
+  margin: 0;
+}
